@@ -19,7 +19,7 @@ export const episodes: Episode[] = [
   {
     id: 0,
     slug: '00',
-    date: '2024-12-01',
+    date: '2026-05-17',
     readTime: 4,
     tags: ['origin', 'family', 'motivation'],
     published: true,
@@ -35,7 +35,7 @@ export const episodes: Episode[] = [
   {
     id: 1,
     slug: '01',
-    date: '2024-12-08',
+    date: '2026-05-17',
     readTime: 6,
     tags: ['concept', 'architecture', 'state-machine'],
     published: true,
@@ -51,7 +51,7 @@ export const episodes: Episode[] = [
   {
     id: 2,
     slug: '02',
-    date: '2024-12-15',
+    date: '2026-05-17',
     readTime: 6,
     tags: ['architecture', 'design', 'documentation'],
     published: true,
@@ -67,7 +67,7 @@ export const episodes: Episode[] = [
   {
     id: 3,
     slug: '03',
-    date: '2024-12-22',
+    date: '2026-05-17',
     readTime: 7,
     tags: ['build-log', 'supabase', 'vercel'],
     published: true,

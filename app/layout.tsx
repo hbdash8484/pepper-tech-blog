@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 import NavBar from '@/components/NavBar';
 import '@/styles/globals.css';
 
@@ -10,9 +11,12 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://pepper.kimsheritage.com'),
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const headersList = await headers();
+  const lang = headersList.get('x-lang') ?? 'ko';
+
   return (
-    <html lang="ko">
+    <html lang={lang}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
