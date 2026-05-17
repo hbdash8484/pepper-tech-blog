@@ -1,0 +1,22 @@
+# Pepper
+
+> A build log documenting the development of an AI assistant named Pepper.
+> Author: Danny Kim
+> Language: Korean (primary), English
+> Topics: AI development, solo developer, personal AI assistant, build log
+> Episodes: EP 00 – EP 19
+> Site: https://pepper.kimsheritage.com
+
+## About
+
+Pepper is a build log — a serialised account of building an AI assistant that feels less like a tool and more like a person. The name references Pepper Potts, not Jarvis: the goal is context-awareness, human-adjacent support, and genuine usefulness without coldness.
+
+## Episodes
+
+- EP 00: Why I Named It Pepper — The origin story and name choice.
+- EP 01: The Problem With Jarvis — Why the Jarvis archetype fails in practice.
+- EP 02–19: Coming soon.
+
+## Author
+
+Danny Kim, Managing Director at Kims Heritage Holdings. Solo developer building Pepper.
