@@ -209,8 +209,8 @@ body {
 .ep-num {
   font-family: var(--font-cormorant-sc);
   font-size: 9px;
-  font-weight: 300;
-  color: var(--warm-gray);
+  font-weight: 400;
+  color: var(--warm-brown);
   letter-spacing: 1px;
   line-height: 1;
   margin-bottom: 3px;
@@ -219,7 +219,7 @@ body {
 .ep-title-small {
   font-family: var(--font-raleway);
   font-size: 11px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--warm-black);
   line-height: 1.4;
   white-space: nowrap;
@@ -291,9 +291,9 @@ body {
 .body-text {
   font-family: var(--font-raleway);
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.85;
-  color: var(--warm-brown);
+  color: var(--warm-black);
   margin-bottom: 1.5em;
 }
 
@@ -321,9 +321,9 @@ body {
 .body-ol {
   font-family: var(--font-raleway);
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.85;
-  color: var(--warm-brown);
+  color: var(--warm-black);
   margin-bottom: 1.5em;
   padding-left: 1.5em;
 }
