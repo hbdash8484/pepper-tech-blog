@@ -83,12 +83,18 @@ export const episodes: Episode[] = [
   {
     id: 4,
     slug: '04',
-    date: '',
-    readTime: 0,
-    tags: [],
-    published: false,
-    title: { ko: 'Coming Soon', en: 'Coming Soon' },
-    summary: { ko: '', en: '' },
+    date: '2026-05-21',
+    readTime: 4,
+    tags: ['documentation', 'architecture', 'logging'],
+    published: true,
+    title: {
+      ko: 'context.md는 계속 진화한다',
+      en: 'context.md Keeps Evolving',
+    },
+    summary: {
+      ko: '코드 한 줄 없이 페퍼가 자란 날. pepper_logs, STATE C 지시문, Google I/O — 문서가 먼저 바뀌고 코드가 따라온다.',
+      en: 'The day Pepper grew without a single line of code. pepper_logs, STATE C as instructions, Google I/O — the document changes first, the code follows.',
+    },
   },
   {
     id: 5,
