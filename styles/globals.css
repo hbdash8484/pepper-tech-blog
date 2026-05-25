@@ -357,8 +357,9 @@ body {
 
 /* ───── Code Blocks ───── */
 .code-block {
-  background-color: var(--warm-black);
-  color: var(--cream);
+  background-color: #EDE8DF;
+  color: #6B1F2A;
+  border: 1px solid #D0C8BC;
   padding: 1.25em 1.5em;
   border-radius: 2px;
   overflow-x: auto;
