@@ -12,9 +12,14 @@ const components: Components = {
   blockquote: ({ children }) => (
     <blockquote className="pull-quote">{children}</blockquote>
   ),
+  // react-markdown v9 no longer passes `inline`; detect block code by the
+  // trailing newline that mdast-util-to-hast adds to fenced blocks, or by a
+  // language-* class. Everything else is inline code.
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  code: ({ inline, children, ...props }: any) => {
-    if (inline) {
+  code: ({ className, children, ...props }: any) => {
+    const text = String(children ?? '');
+    const isBlock = /language-/.test(className || '') || text.includes('\n');
+    if (!isBlock) {
       return (
         <code className="inline-code" {...props}>
           {children}
@@ -23,7 +28,9 @@ const components: Components = {
     }
     return (
       <pre className="code-block">
-        <code {...props}>{children}</code>
+        <code className={className} {...props}>
+          {children}
+        </code>
       </pre>
     );
   },
